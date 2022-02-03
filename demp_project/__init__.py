@@ -16,7 +16,6 @@ class Bar:
     .. autosummary::
         :toctree: _autosummary
 
-        Foo 
-        Bar
+        demp_project.Foo 
     
     """
