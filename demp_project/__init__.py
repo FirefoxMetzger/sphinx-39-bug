@@ -15,9 +15,8 @@ class Bar:
 
     .. currentmodule:: demp_project
 
-    .. autoclass:: demp_project.Foo
-
     .. autosummary::
+        :toctree: _autosummary
     
         demp_project.Foo 
     
