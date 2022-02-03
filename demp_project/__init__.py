@@ -5,6 +5,9 @@ class Foo:
     
     """
 
+    def foobar():
+        return 0
+
 
 class Bar:
     """
