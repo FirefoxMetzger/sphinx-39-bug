@@ -15,9 +15,10 @@ class Bar:
 
     .. currentmodule:: demp_project
 
-    .. autosummary::
-        :toctree: _autosummary
+    .. autoclass:: demp_project.Foo
 
+    .. autosummary::
+    
         demp_project.Foo 
     
     """
