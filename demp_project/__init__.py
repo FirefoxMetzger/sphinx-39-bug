@@ -5,14 +5,20 @@ class Foo:
     
     """
 
+    def foobar():
+        return 0
+
 
 class Bar:
     """
     This is documentation inside a class.
 
-    .. autosummary::
+    .. currentmodule:: demp_project
 
-        Foo 
-        Bar
+    .. autoclass:: demp_project.Foo
+
+    .. autosummary::
+    
+        demp_project.Foo 
     
     """
