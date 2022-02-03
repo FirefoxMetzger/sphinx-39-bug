@@ -14,6 +14,7 @@ class Bar:
     This is documentation inside a class.
 
     .. autosummary::
+        :toctree: _autosummary
 
         Foo 
         Bar
