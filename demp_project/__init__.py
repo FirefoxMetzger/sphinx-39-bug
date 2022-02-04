@@ -1,23 +1,27 @@
-class Foo:
-    """
-    
-    This is a test documentation
-    
-    """
+""" The demp_project package
 
-    def foobar():
-        return 0
+The demp_project consists of the following classes
+
+.. autosummary::
+    :toctree: _autosummary
+
+    demp_project.Foo
+    demp_project.Bar
+
+"""
+
+
+class Foo:
+    """ Summary of class Foo
+    
+    Here comes extensive documentation.
+    
+    """
 
 
 class Bar:
-    """
-    This is documentation inside a class.
+    """ Summary of class Bar
 
-    .. currentmodule:: demp_project
-
-    .. autosummary::
-        :toctree: _autosummary
-    
-        demp_project.Foo 
+    even more extensive documentation.
     
     """
