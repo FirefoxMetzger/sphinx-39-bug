@@ -1,5 +1,5 @@
 doc/build/
-doc/src/_autosummary/
+doc/source/_autosummary/
 **/__pychache__/
 
 *.pyc
