@@ -16,18 +16,6 @@ class Bar:
     """
 
 class LazyImporter:
-    """ The demp_project package
-
-    The demp_project consists of the following classes:
-
-    .. autosummary::
-        :toctree: _autosummary
-
-        demp_project.Foo
-        demp_project.Bar
-
-    """
-
     __name__ = __name__
 
     def __getattr__(self, name):
@@ -46,4 +34,17 @@ class LazyImporter:
         else:
             raise AttributeError(f"module '{__name__}' has no attribute '{name}'")
 
-sys.modules[__name__] = LazyImporter()
+foo = LazyImporter()
+foo.__doc__ = """ The demp_project package
+
+    The demp_project consists of the following classes:
+
+    .. autosummary::
+        :toctree: _autosummary
+
+        demp_project.Foo
+        demp_project.Bar
+
+    """
+
+sys.modules[__name__] = foo
